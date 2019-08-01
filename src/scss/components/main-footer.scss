@@ -1,0 +1,11 @@
+.main-footer {
+    padding-top: 65px;
+    box-shadow: 0 0 10px 1px $lightgray;
+    text-align: center;
+
+    &__logo {
+        width: 130px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}

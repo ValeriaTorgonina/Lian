@@ -1,6 +1,7 @@
 @import "../../node_modules/normalize-scss/sass/normalize/_import-now";
 @import "mixin.scss";
 @import "variables.scss";
+@import "common.scss";
 @import "components/main-header.scss";
 @import "components/containers.scss";
 @import "components/main-nav.scss";
@@ -9,3 +10,10 @@
 @import "components/intro.scss";
 @import "components/typography.scss";
 @import "components/slider.scss";
+@import "components/bread-crumbs.scss";
+@import "components/cards.scss";
+@import "components/album.scss";
+@import "components/buttons.scss";
+@import "components/main-footer.scss";
+@import "components/socials.scss";
+@import "components/copyrigh-text.scss";

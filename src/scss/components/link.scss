@@ -3,6 +3,14 @@
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+        color: $darkgray1;
+    }
+
+    &:active {
+        color: black;
+    }
 }
 
 .active {

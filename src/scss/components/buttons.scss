@@ -1,0 +1,23 @@
+.load-more-btn {
+    display: block;
+    background: $main;
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+    &:hover {
+        color: $main;
+        background: linear-gradient(to right, transparent 0%, $lightgray 50%, $lightgray 50%, transparent 100%);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        color: black;
+    }
+}

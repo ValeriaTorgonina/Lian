@@ -28,6 +28,7 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
+    "masonry-layout": "^4.2.2",
     "normalize-scss": "^7.0.1"
   }
 }
