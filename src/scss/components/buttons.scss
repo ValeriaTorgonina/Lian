@@ -21,3 +21,17 @@
         color: black;
     }
 }
+
+.like {
+    display: inline-block;
+
+    &__btn {
+        background: none;
+        border: none;
+    }
+
+    &__text {
+        color: $darkgray1;
+        font-weight: bold;
+    }
+}

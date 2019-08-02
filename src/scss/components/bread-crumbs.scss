@@ -1,5 +1,5 @@
 .bread-crumbs {
-    margin-bottom: 30px;
+    margin: 30px 0;
 
     &__list {
         display: flex;
@@ -19,7 +19,7 @@
             display: block;
             width: 1px;
             height: 30px;
-            background: $lightgray;
+            background: $lightgray; 
             left: -10px;
             top: 50%;
             transform: translate(0, -50%) rotate(20deg);
