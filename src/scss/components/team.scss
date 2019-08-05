@@ -1,0 +1,20 @@
+.team {
+    text-align: center;
+    padding-bottom: 75px;
+
+    &__text {
+        width: 60%;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        color: $main;
+        font-weight: normal;
+        text-transform: initial;
+        line-height: 2em;
+        letter-spacing: 0.5px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}

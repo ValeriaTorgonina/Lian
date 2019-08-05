@@ -19,6 +19,15 @@
         text-decoration: none;
         text-align: center;
 
+        &:hover {
+            color: $darkgray1;
+        }
+
+        &:active {
+            color: black;
+            background: linear-gradient(to right, transparent 0%, $lightgray 50%, $lightgray 50%, transparent 100%);
+        }
+
         &--previous {
             padding-left: 55px;
             padding-right: 38px;

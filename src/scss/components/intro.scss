@@ -12,7 +12,8 @@
         justify-content: center;
         height: 100vh;
 
-        &--portfolio {
+        &--portfolio,
+        &--about {
             align-items: flex-start;
             height: 440px;
         }
@@ -22,7 +23,8 @@
         margin-bottom: 35px;
     }
 
-    &--portfolio {
+    &--portfolio,
+    &--about {
         background: $gray url("../../img/portfolio-intro-bg.jpg") no-repeat 100% 100%;
         background-size: 500px 350px;
         height: 440px;
@@ -30,5 +32,10 @@
         .main-title {
             margin-top: 80px;
         }
+    }
+
+    &--about {
+        margin-bottom: 70px;
+        background: $lightgray url("../../img/about-intro-bg.png") no-repeat 100% -10%;
     }
 }
