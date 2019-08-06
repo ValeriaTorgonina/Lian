@@ -4,3 +4,23 @@ hr {
     background-color: $lightgray;
     border: none;
 }
+
+.card-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: $main;
+    text-transform: initial;
+    border: 1px solid $main;
+
+    &:hover {
+        background: black;
+        color: white;
+        border: 1px solid black;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

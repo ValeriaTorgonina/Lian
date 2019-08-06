@@ -11,3 +11,8 @@ body {
 .main {
     background: $lightgray1;
 }
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+}
