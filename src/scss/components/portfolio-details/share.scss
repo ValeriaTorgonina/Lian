@@ -1,0 +1,51 @@
+.share {
+    display: flex;
+    align-items: center;
+
+    &__btn {
+        padding: 15px 15px;
+        padding-left: 30px;
+        background-color: $main;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+    }
+
+    &__socials {
+        position: relative;
+        margin-bottom: 0;
+        margin-left: 15px;
+        display: inline-block;
+        width: 315px;
+        justify-content: center;
+        background-color: $lightgray;
+        border-radius: 4px;
+
+        .socials__link {
+            width: 45px;
+            height: 45px;
+
+
+            &:hover {
+                background: $main;
+            }
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: $lightgray;
+            top: 50%;
+            left: -5px;
+            transform: translate(0, -50%) rotate(45deg);
+            z-index: 0;
+        }
+    }
+}

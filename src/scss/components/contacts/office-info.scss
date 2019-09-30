@@ -1,0 +1,60 @@
+.office-info {
+  padding: 80px 0;
+  background: white;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    max-width: 395px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+  }
+
+  &__description,
+  &__text,
+  b {
+    color: $darkgray1;
+    font-size: 16px;
+    text-transform: initial;
+  }
+
+  &__text {
+    display: block;
+    margin-bottom: 30px;
+    color: $darkgray;
+  }
+
+  &__number {
+    display: block;
+    margin-bottom: 10px;
+    color: $darkgray1;
+    font-weight: bold;
+  }
+
+  b {
+    color: black;
+  }
+
+  hr {
+    width: 60px;
+    background: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  &__form {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

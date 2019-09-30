@@ -1,0 +1,25 @@
+.comment-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+  .sub-title {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text-input,
+  .email-input,
+  .site-input {
+    width: 31%;
+  }
+
+  .submit-btn {
+    margin: 0 auto;
+  }
+}

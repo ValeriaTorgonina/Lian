@@ -1,0 +1,26 @@
+.text-input,
+.email-input,
+.site-input,
+.text-area {
+  width: 49%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid $gray;
+  box-sizing: border-box;
+
+  &::placeholder {
+    font-size: 16px;
+    color: $gray1;
+    font-style: italic;
+  }
+
+  &:focus {
+    outline: none;
+    border-left: 3px solid $gray;
+  }
+}
+
+.text-area {
+  display: block;
+  width: 100%;
+}

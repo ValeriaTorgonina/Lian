@@ -1,0 +1,84 @@
+.page-nav {
+    background: white;
+
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__btn {
+        position: relative;
+        display: inline-block;
+        padding: 20px 0;
+        border-left: 1px solid $lightgray;
+        border-right: 1px solid $lightgray;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+            color: $darkgray1;
+        }
+
+        &:active {
+            color: black;
+            background: linear-gradient(to right, transparent 0%, $lightgray 50%, $lightgray 50%, transparent 100%);
+        }
+
+        &--previous {
+            padding-left: 55px;
+            padding-right: 38px;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 1px;
+                height: 6px;
+                background: black;
+                left: 37px;
+                top: 50%;
+                transform: translate(0, -1px) rotate(135deg);
+            }
+
+            &::after {
+                transform: translate(0, -5px) rotate(45deg);    
+            }
+        }
+
+        &--next {
+            padding-left: 53px;
+            padding-right: 75px;
+            border-left: none;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 1px;
+                height: 6px;
+                background: black;
+                right: 55px;
+                top: 50%;
+                transform: translate(0, -1px) rotate(45deg);
+            }
+
+            &::after {
+                transform: translate(0, -5px) rotate(135deg);    
+            }
+        }
+
+        &--show-all {
+            position: absolute;
+            right: 0;
+            padding-left: 75px;
+            padding-right: 53px;
+        }
+    }
+
+}

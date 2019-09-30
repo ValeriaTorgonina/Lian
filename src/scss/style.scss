@@ -2,31 +2,46 @@
 @import "mixin.scss";
 @import "variables.scss";
 @import "common.scss";
-@import "components/main-header.scss";
-@import "components/containers.scss";
-@import "components/main-nav.scss";
-@import "components/link.scss";
-@import "components/search.scss";
-@import "components/intro.scss";
-@import "components/typography.scss";
-@import "components/slider.scss";
-@import "components/bread-crumbs.scss";
-@import "components/cards.scss";
-@import "components/album.scss";
-@import "components/buttons.scss";
-@import "components/main-footer.scss";
-@import "components/socials.scss";
-@import "components/copyrigh-text.scss";
-@import "components/page-nav.scss";
-@import "components/post.scss";
-@import "components/share.scss";
-@import "components/related-works.scss";
-@import "components/about-us.scss";
-@import "components/range.scss";
-@import "components/team.scss";
-@import "components/person-cards.scss";
-@import "components/blog.scss";
-@import "components/sidebar.scss";
-@import "components/recent-posts.scss";
-@import "components/popular-tags.scss";
-@import "components/instagram.scss";
+
+@import "components/main-header/main-header.scss";
+@import "components/main-header/main-nav.scss";
+
+@import "components/main-footer/main-footer.scss";
+@import "components/main-footer/socials.scss";
+@import "components/main-footer/copyrigh-text.scss";
+
+@import "components/basic/containers.scss";
+@import "components/basic/link.scss";
+@import "components/basic/search.scss";
+@import "components/basic/intro.scss";
+@import "components/basic/typography.scss";
+@import "components/basic/slider.scss";
+@import "components/basic/buttons.scss";
+@import "components/basic/inputs.scss";
+
+@import "components/album/bread-crumbs.scss";
+@import "components/album/cards.scss";
+@import "components/album/album.scss";
+
+@import "components/portfolio-details/page-nav.scss";
+@import "components/portfolio-details/post.scss";
+@import "components/portfolio-details/share.scss";
+@import "components/portfolio-details/related-works.scss";
+
+@import "components/about-us/about-us.scss";
+@import "components/about-us/range.scss";
+@import "components/about-us/team.scss";
+@import "components/about-us/person-cards.scss";
+
+@import "components/blog/blog.scss";
+@import "components/blog/sidebar.scss";
+@import "components/blog/recent-posts.scss";
+@import "components/blog/popular-tags.scss";
+@import "components/blog/instagram.scss";
+
+@import "components/contacts/office-info.scss";
+@import "components/contacts/map.scss";
+@import "components/contacts/our-values.scss";
+
+@import "components/article/article.scss";
+@import "components/article/comment-form.scss";

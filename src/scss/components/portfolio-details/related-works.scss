@@ -1,0 +1,23 @@
+.related-works {
+  padding-bottom: 70px;
+  text-align: center;
+
+  &__text {
+    padding-bottom: 50px;
+    color: $darkgray;
+    text-transform: initial;
+    font-weight: normal;
+    line-height: 2em;
+    letter-spacing: 0.5px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    height: 250px;
+    width: 350px;
+  }
+}

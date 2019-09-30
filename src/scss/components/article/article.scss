@@ -1,0 +1,59 @@
+.article {
+  text-align: center;
+
+  .title {
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 5px;
+  }
+
+  &__author,
+  &__date,
+  .like {
+    padding: 25px;
+    color: $darkgray;
+    font-size: 14px;
+    text-transform: initial;
+  }
+
+  &__img {
+    width: 100%;
+    height: 480px;
+    margin-bottom: 45px;
+    background: url(../../../img/card-bg-12.jpg) 50% 50% no-repeat;
+    background-size: cover;
+  }
+
+  &__text {
+    margin-left: 65px;
+    margin-right: 70px;
+    margin-bottom: 35px;
+    text-align: start;
+    color: $darkgray;
+    font-size: 14px;
+    text-transform: initial;
+    line-height: 2.5em;
+  }
+
+  &__main-text {
+    padding: 30px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    border: 1px solid $lightgray;
+    border-left: 5px solid $lightgray;
+    color: $darkgray;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: start;
+    text-transform: initial;
+    line-height: 2em;
+    box-sizing: border-box;
+  }
+
+  &__title {
+    text-align: left;
+    margin-left: 65px;
+  }
+}

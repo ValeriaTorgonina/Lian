@@ -1,0 +1,123 @@
+.blog {
+    width: 750px;
+    padding-bottom: 100px;
+
+    .load-more-btn {
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    &__card-image {
+        height: 250px;
+        background: $lightgray;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+    }
+    
+    &__card-content {
+        padding: 23px;
+        padding-right: 30px;
+        padding-left: 45px;
+    }
+
+    .card-tag {
+        margin: 35px 45px;
+        margin-bottom: 0;
+    }
+
+    &__card-title {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: initial;
+        line-height: 1.5em;
+    }
+
+    &__card-author {
+        font-size: 13px;
+        color: $gray1;
+        text-transform: initial;
+    }
+
+    &__card-text,
+    &__card-date {
+        font-size: 14px;
+        padding-top: 10px;
+        color: $main;
+        font-weight: normal;
+        text-transform: initial;
+        line-height: 1.7em;
+        letter-spacing: 0.5px;
+    }
+
+    &__card-date {
+        position: relative;
+        padding-right: 95px;
+        bottom: 10px;
+    }
+
+    .card-share-btn,
+    .card-like-btn {
+        display: inline-block;
+
+        width: 35px;
+        height: 35px;
+        border: 1px solid red;
+    }
+
+    &__card {
+        width: 360px;
+        margin-bottom: 30px;
+        background: white;
+        box-sizing: border-box;
+        transition: 0.5s;
+
+        &:active {
+            transform: scale(1.1);
+        }
+
+        &--img-hover {
+            position: relative;
+
+            .blog__card-image {
+                height: 330px;
+            }
+
+            .blog__card-title {
+                color: white;
+            }
+
+            .blog__card-content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.7);
+                opacity: 0;
+                color: white;
+                transition: 0.3s;
+            }
+
+            .blog__card-text {
+                color: white;
+            }
+
+            .card-tag {
+                margin: 10px 0;
+                margin-top: 20px;
+            }
+
+            &:hover {
+
+                .blog__card-content {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
