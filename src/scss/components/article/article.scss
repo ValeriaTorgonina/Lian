@@ -10,11 +10,35 @@
 
   &__author,
   &__date,
-  .like {
+  &__like {
     padding: 25px;
     color: $darkgray;
     font-size: 14px;
     text-transform: initial;
+  }
+
+  &__like {
+    display: inline-block;
+
+    &-btn {
+      position: relative;
+      background: none;
+      border: none;
+      outline: none;
+      top: 2px;
+
+      svg {
+        fill: #4a4a4a;
+
+        &:hover {
+          fill: #777777;
+        }
+
+        &:active {
+          fill: red;
+        }
+      }
+    }
   }
 
   &__img {

@@ -1,18 +1,69 @@
 .socials {
-    margin-bottom: 35px;
-    
-    &__list {
-        display: flex;
-        justify-content: space-between; 
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 0;
-        list-style: none;
+  margin-bottom: 35px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__link {
+    display: block;
+    width: 70px;
+    height: 60px;
+    transition: 0.5s;
+
+    &--facebook {
+      background: url(../../../img/icons-png/facebook.png) 50% 50% no-repeat;
+      background-size: 20px 20px;
+      opacity: 0.7;
     }
 
-    &__link {
-        display: block;
-        width: 70px;
-        height: 60px;
+    &--gmail {
+      background: url(../../../img/icons-png/google.png) 50% 50% no-repeat;
+      background-size: 20px 20px;
+      opacity: 0.7;
     }
+
+    &--twitter {
+      background: url(../../../img/icons-png/twitter.png) 50% 50% no-repeat;
+      background-size: 20px 20px;
+      opacity: 0.7;
+    }
+
+    &--in {
+      background: url(../../../img/icons-png/linkedin.png) 50% 50% no-repeat;
+      background-size: 18px 18px;
+      opacity: 0.7;
+    }
+
+    &--basketball {
+      background: url(../../../img/icons-png/basketball.png) 50% 50% no-repeat;
+      background-size: 20px 20px;
+      opacity: 0.7;
+    }
+
+    &--pinterest {
+      background: url(../../../img/icons-png/pinterest.png) 50% 50% no-repeat;
+      background-size: 20px 20px;
+      opacity: 0.7;
+    }
+
+    &--instagram {
+      background: url(../../../img/icons-png/instagram.png) 50% 50% no-repeat;
+      background-size: 20px 20px;
+      opacity: 0.7;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
 }

@@ -29,12 +29,25 @@
   }
 }
 
-.like {
-  display: inline-block;
-
+.post-like {
   &__btn {
+    position: relative;
+    top: 2px;
     background: none;
     border: none;
+    outline: none;
+
+    svg {
+      fill: #4a4a4a;
+
+      &:hover {
+        fill: #777777;
+      }
+
+      &:active {
+        fill: red;
+      }
+    }
   }
 
   &__text {
