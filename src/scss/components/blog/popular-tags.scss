@@ -1,18 +1,20 @@
 .popular-tags {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    margin-bottom: 40px;
-    background: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+  background: white;
 
-    .sidebar__title {
-        margin-bottom: 35px;
-    }
+  .sidebar__title {
+    margin-bottom: 35px;
+    margin-left: -20px;
+    width: 120%;
+  }
 
-    .card-tag {
-        display: inline-block;
-        margin: 6px 3px;
-    }
+  .card-tag {
+    display: inline-block;
+    margin: 6px 3px;
+  }
 }

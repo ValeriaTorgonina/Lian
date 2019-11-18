@@ -1,13 +1,18 @@
 .copyrigh-text {
-    display: inline-block;
-    height: 13px;
-    margin: 0 auto;
-    margin-bottom: 45px;
-    font-size: 13px;
-    color: $main;
-    font-weight: normal;
+  display: inline-block;
+  height: 13px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  font-size: 13px;
+  color: $main;
+  font-weight: normal;
 
-    &--black {
-        color: black;
-    }
+  &--black {
+    color: black;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
 }

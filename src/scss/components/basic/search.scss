@@ -10,10 +10,10 @@
 
   &__input {
     padding: 8px;
-    border: none;
+    border: 1px solid $lightgray;
     font-size: 16px;
     text-transform: capitalize;
-    border-radius: 5%;
+    border-radius: 5px;
 
     &:focus {
       outline: none;
@@ -51,6 +51,10 @@
 
     .search__input-wrapper {
       width: 100%;
+    }
+
+    .search__input {
+      border: none;
     }
 
     .search__btn {

@@ -66,4 +66,17 @@
       opacity: 1;
     }
   }
+
+  @media (max-width: 450px) {
+    margin-bottom: 20px;
+
+    &__list {
+      max-width: 100%;
+    }
+
+    &__link {
+      width: 40px;
+      background-size: 10px 10px;
+    }
+  }
 }

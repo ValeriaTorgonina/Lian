@@ -9,7 +9,7 @@ var msnry = new Masonry(".blog-card-wrapper", {
 (function(window, document) {
   "use strict";
   var file = "img/sprite.svg", // путь к файлу спрайта на сервере
-    revision = 6; // версия спрайта
+    revision = 7; // версия спрайта
   if (
     !document.createElementNS ||
     !document.createElementNS("http://www.w3.org/2000/svg", "svg").createSVGRect

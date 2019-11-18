@@ -15,11 +15,6 @@
     letter-spacing: 0.5px;
   }
 
-  &__cards {
-    display: flex;
-    justify-content: space-between;
-  }
-
   &__card {
     width: 350px;
 
@@ -45,6 +40,22 @@
     &--third {
       background: url("../../../img/card-bg-5.jpg") 50% 50% no-repeat;
       background-size: cover;
+    }
+  }
+
+  @media (max-width: 770px) {
+    &__text {
+      width: 100%;
+    }
+
+    &__card {
+      margin: 0 190px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    &__text {
+      width: 90%;
     }
   }
 }

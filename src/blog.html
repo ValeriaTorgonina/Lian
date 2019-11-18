@@ -13,40 +13,45 @@
         <div class="wrapper">
             <header class="main-header">
                 <div class="container">
-                    <a href="#" class="logo main-header__logo">
-                        <img src="../img/logo.png" alt="logo Lian" class="logo__img" width="130px" height="38px">
-                    </a>
-                    <nav class="main-nav">
-                        <ul class="main-nav__list">
-                            <li class="main-nav__item">
-                                <a href="index.html" class="link">home</a>
-                            </li>
-                            <li class="main-nav__item">
-                                <a href="about.html" class="link">about</a>
-                            </li>
-                            <li class="main-nav__item">
-                                <a href="portfolio.html" class="link">portfolio</a>
-                            </li>
-                            <li class="main-nav__item">
-                                <a href="blog.html" class="link active">blog</a>
-                            </li>
-                            <li class="main-nav__item">
-                                <a href="contact.html" class="link">contact</a>
-                            </li>
-                            <li class="main-nav__item">
-                                <form class="search">
+                            <a href="#" class="logo main-header__logo">
+                              <img src="../img/logo.png" alt="logo Lian" class="logo__img" />
+                            </a>
+                            <nav class="main-nav active-main-nav">
+                              <ul class="main-nav__list">
+                                <li class="main-nav__item">
+                                  <a href="index.html" class="link">home</a>
+                                </li>
+                                <li class="main-nav__item">
+                                  <a href="about.html" class="link">about</a>
+                                </li>
+                                <li class="main-nav__item">
+                                  <a href="portfolio.html" class="link">portfolio</a>
+                                </li>
+                                <li class="main-nav__item">
+                                  <a href="blog.html" class="link active">blog</a>
+                                </li>
+                                <li class="main-nav__item">
+                                  <a href="contact.html" class="link">contact</a>
+                                </li>
+                                <li class="main-nav__item">
+                                  <form class="search">
                                     <label class="search__input-wrapper">
-                                        <input type="search" class="search__input" placeholder="search">
-                                        <button class="search__btn">
-                                            <svg width="14" height="14">
-                                                <use xlink:href="#search"></use>
-                                            </svg>
-                                        </button>
+                                      <input
+                                        type="search"
+                                        class="search__input"
+                                        placeholder="search"
+                                      />
+                                      <button class="search__btn">
+                                        <svg width="14" height="14">
+                                          <use xlink:href="#search"></use>
+                                        </svg>
+                                      </button>
                                     </label>
-                                </form>
-                            </li>
-                        </ul>
-                    </nav>          
+                                  </form>
+                                </li>
+                              </ul>
+                            </nav>
+                            <button class="list-btn"></button>
                 </div>
             </header>
             <main class="main">
@@ -60,218 +65,220 @@
                 </section>
                 <div class="container blog-container">
                     <section class="blog">
-                        <div class="blog-card-wrapper">
-                            <section class="blog__card">
-                                <header class="blog__card-header">
-                                    <a href="#" class="card-tag">wordpress</a>
-                                </header>
-                                <div class="blog__card-content">
-                                    <a href="#" class="blog__card-link">
-                                        <h3 class="blog__card-title">I am a Blog Post Title</h3>
-                                        <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
-                                            <use xlink:href="#user"></use>
+                        <div class="blog__adaptive-wrapper">
+                            <div class="blog-card-wrapper">
+                                <section class="blog__card">
+                                    <header class="blog__card-header">
+                                        <a href="#" class="card-tag">wordpress</a>
+                                    </header>
+                                    <div class="blog__card-content">
+                                        <a href="#" class="blog__card-link">
+                                            <h3 class="blog__card-title">I am a Blog Post Title</h3>
+                                            <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
+                                                <use xlink:href="#user"></use>
+                                            </svg>
+                                            <span class="blog__card-author">by Jenn Pereira </span>
+                                            <p class="blog__card-text">
+                                                Phasellus et nisl tellus. Etiam facilisis eu nisi
+                                                    scelerisque faucibus. Proin semper suscipit magna,
+                                                    nec imperdiet lacus semper vitae. Sed hendrerit enim
+                                                    non justo posuere placerat eget purus mauris.
+                                                    Etiam facilisis eu nisi scelerisque faucibus...
+                                            </p>
+                                        </a>
+                                        <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
+                                            <use xlink:href="#calendar"></use>
                                         </svg>
-                                        <span class="blog__card-author">by Jenn Pereira </span>
-                                        <p class="blog__card-text">
-                                            Phasellus et nisl tellus. Etiam facilisis eu nisi
-                                                scelerisque faucibus. Proin semper suscipit magna,
-                                                nec imperdiet lacus semper vitae. Sed hendrerit enim
-                                                non justo posuere placerat eget purus mauris.
-                                                Etiam facilisis eu nisi scelerisque faucibus...
-                                        </p>
-                                    </a>
-                                    <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
-                                        <use xlink:href="#calendar"></use>
-                                    </svg>
-                                    <span class="blog__card-date">on July 19, 2016 </span>
-                                    <button class="card-share-btn">
-                                        <svg width="13" height="13">
-                                            <use xlink:href="#share"></use>
-                                        </svg>
-                                    </button>
-                                    <button class="card-like-btn">
-                                         <svg width="13" height="13">
-                                            <use xlink:href="#like"></use>
-                                        </svg>
-                                    </button>
-                                    </button>
-                                </div>
-                            </section>
-                            <section class="blog__card blog__card--img-hover">
-                                <div class="header blog__card-header">
-                                    <div class="blog__card-image">
-                                        <img src="img/card-bg-3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="blog__card-content">
-                                    <a href="#" class="card-tag">image hover</a>
-                                    <a href="single-article.html" class="blog__card-link">
-                                        <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
-                                        <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
-                                            <use xlink:href="#user"></use>
-                                        </svg>
-                                        <span class="blog__card-author">by Jenn Pereira </span>
-                                        <p class="blog__card-text">
-                                            Proin semper suscipit magna, nec imperdiet 
-                                            non justo posuere placerat eget purus mauris...
-                                        </p>
-                                    </a>
-                                    <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
-                                        <use xlink:href="#calendar"></use>
-                                    </svg>
-                                    <span class="blog__card-date">on July 19, 2016 </span>
-                                    <button class="card-share-btn">
-                                        <svg width="13" height="13">
-                                            <use xlink:href="#share"></use>
-                                        </svg>
-                                    </button>
-                                    <button class="card-like-btn">
-                                        <svg width="14" height="13">
-                                            <use xlink:href="#like"></use>
-                                        </svg>
+                                        <span class="blog__card-date">on July 19, 2016 </span>
+                                        <button class="card-share-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#share"></use>
+                                            </svg>
                                         </button>
-                                </div>
-                            </section>
-                            <section class="blog__card">
-                                <header class="blog__card-header">
-                                    <div class="blog__card-image">
-                                        <img src="img/block-card-bg.jpg" alt="">
+                                        <button class="card-like-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </button>
+                                        </button>
                                     </div>
-                                </header>
-                                <div class="blog__card-content">
-                                    <a href="#" class="blog__card-link">
-                                        <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
-                                        <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
-                                            <use xlink:href="#user"></use>
-                                        </svg>
-                                        <span class="blog__card-author">by Jenn Pereira </span>
-                                        <p class="blog__card-text">
-                                            Proin semper suscipit magna, nec imperdiet 
-                                            lacus semper vitae. Sed hendrerit enim
+                                </section>
+                                <section class="blog__card blog__card--img-hover">
+                                    <div class="header blog__card-header">
+                                        <div class="blog__card-image">
+                                            <img src="img/card-bg-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="blog__card-content">
+                                        <a href="#" class="card-tag">image hover</a>
+                                        <a href="single-article.html" class="blog__card-link">
+                                            <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
+                                            <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
+                                                <use xlink:href="#user"></use>
+                                            </svg>
+                                            <span class="blog__card-author">by Jenn Pereira </span>
+                                            <p class="blog__card-text">
+                                                Proin semper suscipit magna, nec imperdiet 
                                                 non justo posuere placerat eget purus mauris...
-                                        </p>
-                                    </a>
-                                    <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
-                                        <use xlink:href="#calendar"></use>
-                                    </svg>
-                                    <span class="blog__card-date">on July 19, 2016 </span>
-                                    <button class="card-share-btn">
-                                        <svg width="13" height="13">
-                                            <use xlink:href="#share"></use>
+                                            </p>
+                                        </a>
+                                        <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
+                                            <use xlink:href="#calendar"></use>
                                         </svg>
-                                    </button>
-                                    <button class="card-like-btn">
-                                        <svg width="14" height="13">
-                                            <use xlink:href="#like"></use>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </section>
-                            <section class="blog__card blog__card--img-hover">
-                                <div class="header blog__card-header">
-                                    <div class="blog__card-image">
-                                        <img src="img/card-bg.jpg" alt="">
+                                        <span class="blog__card-date">on July 19, 2016 </span>
+                                        <button class="card-share-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#share"></use>
+                                            </svg>
+                                        </button>
+                                        <button class="card-like-btn">
+                                            <svg width="14" height="13">
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                            </button>
                                     </div>
-                                </div>
-                                <div class="blog__card-content">
-                                    <a href="#" class="card-tag">image hover</a>
-                                    <a href="#" class="blog__card-link">
-                                        <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
-                                        <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
-                                            <use xlink:href="#user"></use>
+                                </section>
+                                <section class="blog__card">
+                                    <header class="blog__card-header">
+                                        <div class="blog__card-image">
+                                            <img src="img/block-card-bg.jpg" alt="">
+                                        </div>
+                                    </header>
+                                    <div class="blog__card-content">
+                                        <a href="#" class="blog__card-link">
+                                            <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
+                                            <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
+                                                <use xlink:href="#user"></use>
+                                            </svg>
+                                            <span class="blog__card-author">by Jenn Pereira </span>
+                                            <p class="blog__card-text">
+                                                Proin semper suscipit magna, nec imperdiet 
+                                                lacus semper vitae. Sed hendrerit enim
+                                                    non justo posuere placerat eget purus mauris...
+                                            </p>
+                                        </a>
+                                        <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
+                                            <use xlink:href="#calendar"></use>
                                         </svg>
-                                        <span class="blog__card-author">by Jenn Pereira </span>
-                                        <p class="blog__card-text">
-                                            Proin semper suscipit magna, nec imperdiet 
-                                            lacus semper vitae. Sed non justo purus mauris...
-                                        </p>
-                                    </a>    
-                                    <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
-                                        <use xlink:href="#calendar"></use>
-                                    </svg>
-                                    <span class="blog__card-date">on July 19, 2016 </span>
-                                    <button class="card-share-btn">
-                                        <svg width="13" height="13">
-                                            <use xlink:href="#share"></use>
-                                        </svg>
-                                    </button>
-                                    <button class="card-like-btn">
-                                        <svg width="14" height="13">
-                                            <use xlink:href="#like"></use>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </section>
-                            <section class="blog__card">
-                                <header class="blog__card-header">
-                                    <div class="blog__card-image">
-                                        <img src="img/block-card-bg2.jpg" alt="">
+                                        <span class="blog__card-date">on July 19, 2016 </span>
+                                        <button class="card-share-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#share"></use>
+                                            </svg>
+                                        </button>
+                                        <button class="card-like-btn">
+                                            <svg width="14" height="13">
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </button>
                                     </div>
-                                </header>
-                                <div class="blog__card-content">
-                                    <a href="#" class="blog__card-link">
-                                        <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
-                                        <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
-                                            <use xlink:href="#user"></use>
-                                        </svg>
-                                        <span class="blog__card-author">by Jenn Pereira </span>
-                                        <p class="blog__card-text">
-                                            Proin semper suscipit magna, nec imperdiet 
-                                            lacus semper vitae. Sed hendrerit enim
-                                                non justo posuere placerat eget purus mauris...
-                                        </p>
-                                    </a>
-                                    <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
-                                        <use xlink:href="#calendar"></use>
-                                    </svg>
-                                    <span class="blog__card-date">on July 19, 2016 </span>
-                                    <button class="card-share-btn">
-                                        <svg width="13" height="13">
-                                            <use xlink:href="#share"></use>
-                                        </svg>
-                                    </button>
-                                    <button class="card-like-btn">
-                                        <svg width="14" height="13">
-                                            <use xlink:href="#like"></use>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </section>
-                            <section class="blog__card">
-                                <header class="blog__card-header">
-                                    <div class="blog__card-image">
-                                        <img src="img/portfolio-intro-bg.jpg" alt="">
+                                </section>
+                                <section class="blog__card blog__card--img-hover">
+                                    <div class="header blog__card-header">
+                                        <div class="blog__card-image">
+                                            <img src="img/card-bg.jpg" alt="">
+                                        </div>
                                     </div>
-                                </header>
-                                <div class="blog__card-content">
-                                    <a href="#" class="blog__card-link">
-                                        <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
-                                        <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
-                                            <use xlink:href="#user"></use>
+                                    <div class="blog__card-content">
+                                        <a href="#" class="card-tag">image hover</a>
+                                        <a href="#" class="blog__card-link">
+                                            <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
+                                            <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
+                                                <use xlink:href="#user"></use>
+                                            </svg>
+                                            <span class="blog__card-author">by Jenn Pereira </span>
+                                            <p class="blog__card-text">
+                                                Proin semper suscipit magna, nec imperdiet 
+                                                lacus semper vitae. Sed non justo purus mauris...
+                                            </p>
+                                        </a>    
+                                        <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
+                                            <use xlink:href="#calendar"></use>
                                         </svg>
-                                        <span class="blog__card-author">by Jenn Pereira </span>
-                                        <p class="blog__card-text">
-                                            Proin semper suscipit magna, nec imperdiet 
-                                            lacus semper vitae. Sed hendrerit enim
-                                                non justo posuere placerat eget purus mauris...
-                                        </p>
-                                    </a>
-                                    <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
-                                        <use xlink:href="#calendar"></use>
-                                    </svg>
-                                    <span class="blog__card-date">on July 19, 2016 </span>
-                                    <button class="card-share-btn">
-                                        <svg width="13" height="13">
-                                            <use xlink:href="#share"></use>
+                                        <span class="blog__card-date">on July 19, 2016 </span>
+                                        <button class="card-share-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#share"></use>
+                                            </svg>
+                                        </button>
+                                        <button class="card-like-btn">
+                                            <svg width="14" height="13">
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </section>
+                                <section class="blog__card">
+                                    <header class="blog__card-header">
+                                        <div class="blog__card-image">
+                                            <img src="img/block-card-bg2.jpg" alt="">
+                                        </div>
+                                    </header>
+                                    <div class="blog__card-content">
+                                        <a href="#" class="blog__card-link">
+                                            <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
+                                            <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
+                                                <use xlink:href="#user"></use>
+                                            </svg>
+                                            <span class="blog__card-author">by Jenn Pereira </span>
+                                            <p class="blog__card-text">
+                                                Proin semper suscipit magna, nec imperdiet 
+                                                lacus semper vitae. Sed hendrerit enim
+                                                    non justo posuere placerat eget purus mauris...
+                                            </p>
+                                        </a>
+                                        <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
+                                            <use xlink:href="#calendar"></use>
                                         </svg>
-                                    </button>
-                                    <button class="card-like-btn">
-                                        <svg width="14" height="13">
-                                            <use xlink:href="#like"></use>
+                                        <span class="blog__card-date">on July 19, 2016 </span>
+                                        <button class="card-share-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#share"></use>
+                                            </svg>
+                                        </button>
+                                        <button class="card-like-btn">
+                                            <svg width="14" height="13">
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </section>
+                                <section class="blog__card">
+                                    <header class="blog__card-header">
+                                        <div class="blog__card-image">
+                                            <img src="img/portfolio-intro-bg.jpg" alt="">
+                                        </div>
+                                    </header>
+                                    <div class="blog__card-content">
+                                        <a href="#" class="blog__card-link">
+                                            <h3 class="blog__card-title">I am a Blog Post with an Awesome Image</h3>
+                                            <svg width="12" height="13" viewBox='0 -100 512 512' fill="#cccccc">
+                                                <use xlink:href="#user"></use>
+                                            </svg>
+                                            <span class="blog__card-author">by Jenn Pereira </span>
+                                            <p class="blog__card-text">
+                                                Proin semper suscipit magna, nec imperdiet 
+                                                lacus semper vitae. Sed hendrerit enim
+                                                    non justo posuere placerat eget purus mauris...
+                                            </p>
+                                        </a>
+                                        <svg width="12" height="32" viewBox="0 0 512 512" fill="#777777">
+                                            <use xlink:href="#calendar"></use>
                                         </svg>
-                                    </button>
-                                </div>
-                            </section>
+                                        <span class="blog__card-date">on July 19, 2016 </span>
+                                        <button class="card-share-btn">
+                                            <svg width="13" height="13">
+                                                <use xlink:href="#share"></use>
+                                            </svg>
+                                        </button>
+                                        <button class="card-like-btn">
+                                            <svg width="14" height="13">
+                                                <use xlink:href="#like"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                         <button class="load-more-btn">load more</button>
                     </section>
@@ -354,7 +361,7 @@
                         </section>
                     </aside>
                 </div>
-            </main>
+            </main> 
             <footer class="main-footer">
                 <div class="logo main-footer__logo">
                     <img src="../img/logo.png" alt="logo Lian" class="logo__img" width="130px" height="38px">

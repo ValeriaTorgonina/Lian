@@ -98,4 +98,47 @@
       }
     }
   }
+
+  @media (max-width: 450px) {
+    .container {
+      justify-content: space-between;
+    }
+
+    &__btn {
+      padding: 15px;
+      font-size: 12px;
+      flex-grow: 1;
+      border-left: none;
+
+      &--previous {
+        padding-left: 20px;
+        padding-right: 10px;
+
+        &::before,
+        &::after {
+          left: 15px;
+        }
+      }
+
+      &--next {
+        padding-right: 20px;
+        padding-left: 10px;
+
+        &::before,
+        &::after {
+          right: 15px;
+        }
+      }
+
+      &--show-all {
+        position: relative;
+        right: auto;
+        padding-left: 35px;
+
+        &::before {
+          left: 10px;
+        }
+      }
+    }
+  }
 }

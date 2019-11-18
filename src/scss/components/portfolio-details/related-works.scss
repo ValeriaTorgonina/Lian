@@ -11,13 +11,20 @@
     letter-spacing: 0.5px;
   }
 
-  &__inner {
-    display: flex;
-    justify-content: space-between;
-  }
-
   &__card {
     height: 250px;
     width: 350px;
+  }
+
+  @media (max-width: 770px) {
+    &__card {
+      margin: 0 190px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    &__text {
+      padding: 0 20px;
+    }
   }
 }

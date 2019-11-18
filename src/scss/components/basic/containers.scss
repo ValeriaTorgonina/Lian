@@ -1,18 +1,30 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
+
+  @media (max-width: 770px) {
+    max-width: 730px;
+  }
+
+  @media (max-width: 450px) {
+    max-width: 450px;
+  }
 }
 
 .main {
-    background: $lightgray1;
+  background: $lightgray1;
 }
 
 .blog-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 450px) {
+    display: block;
+  }
 }

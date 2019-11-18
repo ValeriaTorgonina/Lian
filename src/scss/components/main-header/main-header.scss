@@ -1,16 +1,50 @@
 .main-header {
-    max-height: 90px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-    padding: 20px 0;
-    box-shadow: 0 -5px 10px 0px black;
-    z-index: 3;
-    box-sizing: border-box;
+  max-height: 90px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  padding: 20px 0;
+  box-shadow: 0 -5px 10px 0px black;
+  z-index: 3;
+  box-sizing: border-box;
 
-    .container {
-        display: flex;
-        justify-content: space-between;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  svg {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    fill: $main;
+
+    &:active {
+      fill: white;
     }
+  }
+
+  .search__input {
+    display: none;
+  }
+
+  @media (max-width: 770px) {
+    max-height: 60px;
+    padding: 10px 0;
+
+    &__logo {
+      width: 90px;
+      height: 20px;
+      margin-top: 5px;
+      margin-right: 40px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    &__logo {
+      margin-right: 0;
+      margin-left: 20px;
+    }
+  }
 }

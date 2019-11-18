@@ -9,7 +9,18 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"
+    />
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
     <title>Lian</title>
   </head>
   <body>
@@ -17,15 +28,9 @@
       <header class="main-header">
         <div class="container">
           <a href="#" class="logo main-header__logo">
-            <img
-              src="../img/logo.png"
-              alt="logo Lian"
-              class="logo__img"
-              width="130px"
-              height="38px"
-            />
+            <img src="../img/logo.png" alt="logo Lian" class="logo__img" />
           </a>
-          <nav class="main-nav">
+          <nav class="main-nav active-main-nav">
             <ul class="main-nav__list">
               <li class="main-nav__item">
                 <a href="index.html" class="link active">home</a>
@@ -60,29 +65,16 @@
               </li>
             </ul>
           </nav>
+          <button class="list-btn"></button>
         </div>
       </header>
       <main class="main">
-        <section class="intro">
-          <div class="container intro__container">
+        <section class="intro intro--home">
+          <div class="container intro__container intro__container--home">
             <div class="main-title-wrapper">
               <h1 class="main-title">Lian Creative Agency</h1>
             </div>
             <h3 class="sub-title">Minimal Freelance Portfolio</h3>
-            <div class="slider">
-              <label class="slider__wrapper">
-                <input name="slider__btn" type="radio" class="slider__btn" />
-                <span class="slider__decor"></span>
-              </label>
-              <label class="slider__wrapper">
-                <input name="slider__btn" type="radio" class="slider__btn" />
-                <span class="slider__decor"></span>
-              </label>
-              <label class="slider__wrapper">
-                <input name="slider__btn" type="radio" class="slider__btn" />
-                <span class="slider__decor"></span>
-              </label>
-            </div>
           </div>
         </section>
         <section class="album">
@@ -235,5 +227,23 @@
       </footer>
     </div>
     <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        var owlMain = $(".owl-main-carousel");
+        owlMain.owlCarousel({
+          responsive: {
+            1000: {
+              item: 1,
+              loop: false,
+              margin: 0,
+              center: true,
+              mouseDrag: true,
+              touchDrag: true,
+              autoWidth: false
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
