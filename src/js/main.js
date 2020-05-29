@@ -6,6 +6,14 @@ var msnry = new Masonry(".blog-card-wrapper", {
   gutter: 30
 });
 
+(function toggleMenu() {
+  const menu = $('.main-nav');
+  const burgerBtn = $('.list-btn');
+  burgerBtn.click(() => {
+    menu.toggleClass('active-main-nav');
+  })
+})();
+
 (function(window, document) {
   "use strict";
   var file = "img/sprite.svg", // путь к файлу спрайта на сервере
